@@ -1,0 +1,17 @@
+{
+  "name": "sand-to-chip-3d",
+  "version": "1.1.0",
+  "private": true,
+  "description": "从沙子到芯片 · 硅提纯与光刻全流程 3D 可视化",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "serve": "python -m http.server 8217"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}
